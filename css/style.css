@@ -51,6 +51,15 @@ h3 {
   font-weight: 400;
 }
 
+@media (max-width: 992px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+
 p {
   font-style: normal;
   font-weight: normal;
@@ -58,6 +67,10 @@ p {
   line-height: 24px;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+img {
+  max-width: 80%;
 }
 
 .bg-blue {
@@ -101,6 +114,12 @@ section {
   background-size: cover;
 }
 
+@media (max-width: 992px) {
+  section {
+    padding: 128 0px 60px 0px;
+  }
+}
+
 #banner {
   padding: 100px 0px;
   text-align: center;
@@ -111,6 +130,12 @@ section {
   display: block;
   margin: auto;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  #banner {
+    padding: 160px 0px 100px 0px;
+  }
 }
 
 .navbar {
@@ -124,7 +149,16 @@ section {
 
 @media (max-width: 992px) {
   .navbar {
-    padding: 16px 16px;
+    padding: 4px 16px;
+    background: white;
+    border: none;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 -10px 20px #00000050;
+  }
+  .navbar > img {
+    content: url(../img/logo_feiradolivro2020_mini.svg);
+    width: 60%;
   }
 }
 
@@ -135,14 +169,21 @@ section {
   font-size: 16px;
   line-height: 16px;
   color: #003366;
+  padding: 30px;
+  transition: 300ms;
 }
+
+@media (max-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 18px;
+    width: fit-content;
+    background: white;
+  }
+}
+
 .navbar-nav {
   margin-right: 0;
   margin-left: auto;
-}
-.navbar-light .navbar-nav .nav-link {
-  padding: 30px;
-  transition: 300ms;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -158,6 +199,8 @@ section {
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(../img/burger.svg);
+  width: 42px;
+  height: 42px;
 }
 
 .card-header-2020 {
