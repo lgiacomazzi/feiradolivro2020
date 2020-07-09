@@ -341,6 +341,12 @@ div#headingOne {
   background-size: cover;
 }
 
+#banca .card {
+  height: 180px;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #concurso {
   background: linear-gradient(
       0deg,
