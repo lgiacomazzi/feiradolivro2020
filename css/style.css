@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Margot";
+  src: url("../fonts/Margot-Bold.ttf") format("ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Margot";
+  src: url("../fonts/Margot-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
