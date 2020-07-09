@@ -140,12 +140,12 @@ section {
 
 @media (max-width: 992px) {
   #banner {
-    padding: 160px 0px 100px 0px;
+    padding: 100px 0px 60px 0px;
   }
 }
 
 #hello {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 0px;
 }
 
