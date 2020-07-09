@@ -117,7 +117,7 @@ section {
 @media (max-width: 992px) {
   section {
     /* 60 + 68px (navbar) */
-    padding: 128px 0px 60px 0px;
+    padding: 68px 0px 60px 0px;
   }
 }
 
@@ -234,6 +234,13 @@ div#headingOne {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 0;
+}
+
+@media (max-width: 992px) {
+  .card-header-2020 > h2 > button {
+    font-size: 24px;
+  }
 }
 
 .card-header-2020 > h2 > button::after {
@@ -267,6 +274,10 @@ div#headingOne {
 #banca {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/banca2020.png);
+}
+
+#concurso > h2::before {
+  content: url(../img/concurso2020.png);
 }
 
 .concurso-1 {
