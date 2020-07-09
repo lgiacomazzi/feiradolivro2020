@@ -44,6 +44,40 @@ p {
   margin-bottom: 1rem;
 }
 
+.bg-blue {
+  background-color: #003366;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-green {
+  background-color: #97bd30;
+}
+
+.bg-gray {
+  background-color: #eaeaea;
+  color: #333333;
+}
+
+.text-blue {
+  color: #003366;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-green {
+  color: #97bd30;
+}
+
+.text-gray {
+  color: #eaeaea;
+}
+
 section {
   padding: 176px 0px 100px 0px;
   display: block;
@@ -52,6 +86,7 @@ section {
 }
 
 #banner {
+  padding: 100px 0px;
   text-align: center;
 }
 
@@ -91,40 +126,6 @@ section {
 .navbar-light .navbar-nav .nav-link:hover {
   filter: opacity(0.7);
   color: #003366;
-}
-
-.bg-blue {
-  background-color: #003366;
-  color: white;
-}
-
-.bg-white {
-  background-color: white;
-}
-
-.bg-green {
-  background-color: #97bd30;
-}
-
-.bg-gray {
-  background-color: #eaeaea;
-  color: #333333;
-}
-
-.text-blue {
-  color: #003366;
-}
-
-.text-white {
-  color: white;
-}
-
-.text-green {
-  color: #97bd30;
-}
-
-.text-gray {
-  color: #eaeaea;
 }
 
 .card-header-2020 {
@@ -185,4 +186,33 @@ div#headingOne {
   color: #97bd30;
   text-decoration: underline;
   filter: opacity(0.7);
+}
+
+#banca {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/banca2020.png);
+}
+
+.concurso-1 {
+  color: #ffa800;
+}
+.concurso-1::before {
+  content: url(../img/concurso-1.svg);
+}
+.concurso-2 {
+  color: #6b6b6b;
+}
+.concurso-2::before {
+  content: url(../img/concurso-2.svg);
+}
+.concurso-3 {
+  color: #652400;
+}
+.concurso-3::before {
+  content: url(../img/concurso-3.svg);
+}
+.concurso::before {
+  top: 4px;
+  right: 5px;
+  position: relative;
 }

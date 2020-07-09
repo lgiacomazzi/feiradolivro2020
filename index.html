@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
     <!-- Bootstrap -->
+    <!-- CSS only -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -28,6 +29,11 @@
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
@@ -50,6 +56,7 @@
         alt="Feira do Livro Virtual do Higi"
       />
     </section>
+    <!-- Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <img src="img/jphigi.svg" height="60" alt="JP Higi" />
       <button
@@ -73,14 +80,15 @@
             <a class="nav-link" href="#patrona">Patrona</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Estante Virtual</a>
+            <a class="nav-link" href="#banca">Banca Virtual</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mostra Literária</a>
+            <a class="nav-link" href="#mostra">Mostra Literária</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!-- Banner Inicial -->
     <section id="hello" class="bg-white">
       <div class="container">
         <div class="row align-items-center">
@@ -127,10 +135,12 @@
         </div>
       </div>
     </section>
+    <!-- Programação -->
     <section id="programacao" class="bg-gray">
       <div class="container">
         <h2 class="text-blue">Programação Feira do Livro Virtual</h2>
         <div class="accordion" id="accordionExample">
+          <!-- Segunda-feira -->
           <div>
             <div class="card-header-2020" id="headingOne">
               <h2 class="mb-0">
@@ -214,6 +224,7 @@
               </div>
             </div>
           </div>
+          <!-- Terça-feira -->
           <div>
             <div class="card-header-2020" id="headingTwo">
               <h2 class="mb-0">
@@ -235,20 +246,83 @@
               aria-labelledby="headingTwo"
               data-parent="#accordionExample"
             >
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">11h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Carreiras</h3>
+                    <p>Giovanni Tavares (professor da ESPM)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/nwx-bhqk-fgc"
+                      target="_blank"
+                      >Link da sala: meet.google.com/nwx-bhqk-fgc</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">14h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      Vamos abrir as carteiras
+                    </h3>
+                    <p>Priscila Bordin (professora da Unisinos)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/ddo-pvku-qxv"
+                      target="_blank"
+                      >Link da sala: meet.google.com/ddo-pvku-qxv</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">14h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Bate-papo</h3>
+                    <p>Cláudio Levitan (escritor)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/kex-rryb-yey"
+                      target="_blank"
+                      >Link da sala: meet.google.com/kex-rryb-yey</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">14h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      Enfrentamento de Crises
+                    </h3>
+                    <p>
+                      Rosângela Florczak (doutora em Comunicação pela PUCRS)
+                    </p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/hyx-fswh-yyw"
+                      target="_blank"
+                      >Link da sala: meet.google.com/hyx-fswh-yyw</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <!-- Quarta-feira -->
           <div>
             <div class="card-header-2020" id="headingThree">
               <h2 class="mb-0">
@@ -270,20 +344,85 @@
               aria-labelledby="headingThree"
               data-parent="#accordionExample"
             >
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">11h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      Hábitos de Estudos
+                    </h3>
+                    <p>Fernando Luis Trein (professor da ESPM)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/hqz-vwqx-ocs"
+                      target="_blank"
+                      >Link da sala: meet.google.com/hqz-vwqx-ocs</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">14h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Bate-papo</h3>
+                    <p>Karin Hueck (escritora)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/cdk-nyaw-fzo"
+                      target="_blank"
+                      >Link da sala: meet.google.com/cdk-nyaw-fzo</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">15h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      Bate-papo sobre Brito Velho
+                    </h3>
+                    <p>Lea Guarisse (artista plástica e educadora)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/huv-cetx-doe"
+                      target="_blank"
+                      >Link da sala: meet.google.com/huv-cetx-doe</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">18h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Bate-papo</h3>
+                    <p>
+                      Gabriel Goldmeier (ONG Misturaí)<br />
+                      Leandro Olegário (professor da ESPM)<br />
+                      Luciano Brito (professor)
+                    </p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/mdp-fyaq-bgm"
+                      target="_blank"
+                      >Link da sala: meet.google.com/mdp-fyaq-bgm</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <!-- Quinta-feira -->
           <div>
             <div class="card-header-2020" id="headingFour">
               <h2 class="mb-0">
@@ -305,20 +444,29 @@
               aria-labelledby="headingFour"
               data-parent="#accordionExample"
             >
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">18h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      A esperança não nos permite esperar, ela nos encoraja a
+                      realizar!
+                    </h3>
+                    <p>André Aguiar (Fundador da Inspira Rede de Educadores)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/gjn-yfmf-kgi"
+                      target="_blank"
+                      >Link da sala: meet.google.com/gjn-yfmf-kgi</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <!-- Sexta-feira -->
           <div>
             <div class="card-header-2020" id="headingFive">
               <h2 class="mb-0">
@@ -340,25 +488,173 @@
               aria-labelledby="headingFive"
               data-parent="#accordionExample"
             >
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">18h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">
+                      Oficina de Aquarela
+                    </h3>
+                    <p>
+                      Laura Castilhos (Patrona 2020, professora, ilustradora e
+                      artista plástica)
+                    </p>
+                    <a class="a-link" href="https://" target="_blank"
+                      >Link da sala:
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">18h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Live musical</h3>
+                    <p>Thiago di Luca (Músico e professor)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/rax-jriq-zny"
+                      target="_blank"
+                      >Link da sala: meet.google.com/rax-jriq-zny
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row mx-0">
+                  <div class="text-center border-right p-4">
+                    <h3 class="text-blue">18h</h3>
+                  </div>
+                  <div class="col col-md p-4">
+                    <h3 class="text-blue font-weight-bold">Palestra</h3>
+                    <p>Mateus Noronha (CEO da Eduqo/Plataforma A+)</p>
+                    <a
+                      class="a-link"
+                      href="https://meet.google.com/qjx-jxkx-rjm"
+                      target="_blank"
+                      >Link da sala: meet.google.com/qjx-jxkx-rjm
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="patrona"></section>
-    <section id=""></section>
-    <section id=""></section>
+    <!-- Patrona 2020 -->
+    <section id="patrona" class="bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-lg-6 col-12">
+            <h2 class="text-blue">Patrona 2020</h2>
+            <p>
+              Nossa feira já foi apadrinhada por nomes como Carlos Urbim, Moacyr
+              Scliar, Ricardo Silvestrin, Clara Pechansky, Claudio Levitan, Marô
+              Barbieri, Celso Gutfriend, Caio Riter, Luciano Marques de Jesus,
+              entre outros talentos e mentes brilhantes.
+            </p>
+            <p>
+              Este ano, estamos felizes e honrados em ter como patrona a
+              ilustradora, educadora e artista plástica <b>Laura Castilhos</b>.
+            </p>
+            <a href="#" class="a-link">Clique aqui e conheça a nossa patrona</a>
+          </div>
+          <div class="col col-lg-6 text-center mt-5 mt-lg-0">
+            <img
+              width="400"
+              src="img/patrona2020.png"
+              alt="Esperança é o tema da Feira do Livro Virtual do Higi 2020"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banca Virtual -->
+    <section id="banca" class="bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-6 col-12">
+            <h2 class="text-white">Banca Virtual</h2>
+            <p>
+              Todos os anos nossa Feira possibilita a aquisição de excelentes
+              livros trazidos pelas editoras-parceiras. Nossa Feira nasceu por
+              entendermos a importância do livro em nossas vidas e sua
+              relevância na formação dos nossos alunos, bem como para a nossa
+              sociedade.
+            </p>
+            <p>
+              Prestigie as bancas virtuais das nossas parceiras e aproveite o
+              cupom de desconto exclusivo durante a Feira. Cupom:
+              <b class="text-green">#FeiraDoHigi2020</b>
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center mt-3">
+          <div class="col col-lg-4 text-center">
+            <div class="card p-5">Logo 1</div>
+          </div>
+          <div class="col col-lg-4 text-center">
+            <div class="card p-5">Logo 2</div>
+          </div>
+          <div class="col col-lg-4 text-center">
+            <div class="card p-5">Logo 3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Concurso de Redação -->
+    <section id="concurso" class="bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-7 col-12 text-center mx-auto">
+            <h2 class="text-blue">Concurso de Redação 2020</h2>
+            <p>
+              Entre as atividades propostas aos alunos a cada edição da Feira,
+              está o Concurso de Redação. Este ano, após uma Oficina de Redação
+              em parceria com o Curso de Jornalismo da ESPM, a proposta, em tom
+              de esperança, foi inspirada no dia em que multidões foram às ruas
+              para celebrar o final da Segunda Guerra Mundial. Alunos
+              exercitaram a redação de um texto jornalístico simulando uma
+              cobertura sobre a reação das pessoas após a suposta descoberta de
+              uma vacina contra o Covid-19. Confira os textos vencedores:
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col col-lg-4 col-12">
+            <div class="card p-5 border">
+              <p class="small concurso concurso-1">Primeiro Lugar</p>
+              <h3>
+                Anúncio feito pelo Ministério da Saúde causa aglomerações na
+                capital gaúcha: Confira!
+              </h3>
+              <span><i>Por Carolina Wolwacz </i></span>
+            </div>
+          </div>
+          <div class="col col-lg-4 col-12">
+            <div class="card p-5 border">
+              <p class="small concurso concurso-2">Segundo Lugar</p>
+              <h3>
+                Multidão toma Times Square com comemorações e mensagens de
+                esperança
+              </h3>
+              <span><i>Por Melissa Nachtigall Lazzarotto </i></span>
+            </div>
+          </div>
+          <div class="col col-lg-4 col-12">
+            <div class="card p-5 border">
+              <p class="small concurso concurso-3">Terceiro Lugar</p>
+              <h3>A descoberta do século</h3>
+              <span><i>Por Eduarda de Camargo Gomes </i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
