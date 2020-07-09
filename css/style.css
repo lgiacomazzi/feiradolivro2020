@@ -103,6 +103,11 @@ img {
   color: #97bd30;
 }
 
+a.text-green:hover,
+a.text-green:focus {
+  color: #97bd30;
+}
+
 .text-gray {
   color: #eaeaea;
 }
@@ -312,4 +317,27 @@ div#headingOne {
   align-items: center;
   justify-content: center;
   color: #eaeaea;
+}
+
+footer {
+  padding: 70px 0px;
+  display: block;
+  /* box-shadow: 0px -10px 20px #00000010; */
+  background-size: cover;
+}
+
+footer .redes > a {
+  margin-left: 30px;
+  transition: 300ms;
+}
+
+footer .redes > a:hover,
+footer .redes > a:focus {
+  filter: opacity(0.7);
+  text-decoration: none;
+}
+hr {
+  border-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
