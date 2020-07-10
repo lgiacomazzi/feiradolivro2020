@@ -234,6 +234,7 @@ section {
   color: white;
   border-color: #003366;
   border: none;
+  padding: 0px;
 }
 
 .navbar-light .navbar-toggler-icon {
