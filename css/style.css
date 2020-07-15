@@ -283,6 +283,15 @@ div#headingOne {
   border: none;
 }
 
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card a:hover h3 {
+  text-decoration: underline;
+}
+
 .card-header-2020 > h2 > button {
   font-size: 30px;
   line-height: 1.4em;
