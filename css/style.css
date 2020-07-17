@@ -501,6 +501,9 @@ hr {
     width: 100%;
     max-width: 100% !important;
   }
+  #mostra .col > a.btn:first-of-type {
+    margin-bottom: 10px;
+  }
   /* #mostra .row:after {
     content: "";
     width: 50%;
