@@ -70,12 +70,25 @@ p {
 }
 
 img {
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .bg-blue {
   background-color: #003366;
   color: white;
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  border-color: #333;
+  color: #333;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+  background-color: #97bd30;
+  border-color: #97bd30;
 }
 
 .bg-white {
@@ -87,7 +100,7 @@ img {
 }
 
 .bg-gray {
-  background-color: #eaeaea;
+  background-color: #f6f6f6;
   color: #333333;
 }
 
@@ -103,6 +116,10 @@ img {
   color: #97bd30;
 }
 
+.badge-success {
+  background-color: #00336690;
+}
+
 a.text-green:hover,
 a.text-green:focus {
   color: #97bd30;
@@ -113,7 +130,7 @@ a.text-green:focus {
 }
 
 section {
-  padding: 120px 0px 60px 0px;
+  padding: 120px 0px 120px 0px;
   display: block;
   /* box-shadow: 0px -10px 20px #00000010; */
   background-size: cover;
@@ -155,7 +172,8 @@ section {
   z-index: 1000;
   padding: 0px 30px 0px 60px;
   background: white;
-  border-bottom: 1px solid #eaeaea;
+  /* border-bottom: 1px solid #eaeaea; */
+  box-shadow: 0 -10px 20px #00000050;
 }
 
 @media (max-width: 992px) {
@@ -169,7 +187,8 @@ section {
   }
   .navbar > img {
     content: url(../img/logo_feiradolivro2020_mini.svg);
-    width: 60%;
+    width: initial;
+    max-width: 60%;
   }
 }
 
@@ -423,6 +442,22 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.post-container-fix {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#mostra .col > h4 {
+  max-width: 50%;
+}
+
+#mostra .col > img {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
 @media (max-width: 992px) {
   hr {
     margin: auto;
@@ -451,7 +486,6 @@ hr {
     padding-bottom: 56.25%;
     padding-top: 35px;
     height: 0;
-    overflow: hidden;
   }
   .post-container iframe {
     position: absolute;
@@ -459,5 +493,31 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  #mostra .col > h4,
+  #mostra .col > a.btn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 100% !important;
+  }
+  /* #mostra .row:after {
+    content: "";
+    width: 50%;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-top: 1px solid #003366;
+  } */
+  #mostra .col > .badge {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
+  #mostra .col > p {
+    text-align: center;
+  }
+  #mostra .col > img {
+    margin-top: 30px;
   }
 }
